@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+/runs/
+/logs/
+/data/
+/checkpoints/
+.env
+*.egg-info/
+/build/
+/dist/
+
+# Manuscript sources are not part of the public release.
+/paper/

@@ -1,0 +1,314 @@
+{
+  "device": "NVIDIA RTX 6000 Ada Generation",
+  "torch": "2.4.1",
+  "scenes": [
+    {
+      "scene": "Real_NRHints/Cat",
+      "resolution": 512,
+      "frame": 0,
+      "max_abs_rgb_alpha_target": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "scene": "Real_NRHints/CatSmall",
+      "resolution": 512,
+      "frame": 0,
+      "max_abs_rgb_alpha_target": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "scene": "Real_NRHints/CupFabric",
+      "resolution": 512,
+      "frame": 0,
+      "max_abs_rgb_alpha_target": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "scene": "Real_NRHints/Fish",
+      "resolution": 512,
+      "frame": 0,
+      "max_abs_rgb_alpha_target": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "scene": "Real_NRHints/FurScene",
+      "resolution": 512,
+      "frame": 0,
+      "max_abs_rgb_alpha_target": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "scene": "Real_NRHints/Pikachu",
+      "resolution": 512,
+      "frame": 0,
+      "max_abs_rgb_alpha_target": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "scene": "Real_NRHints/Pixiu",
+      "resolution": 512,
+      "frame": 0,
+      "max_abs_rgb_alpha_target": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "scene": "Synthetic_GS3/AnisoMetal",
+      "resolution": 512,
+      "frame": 0,
+      "max_abs_rgb_alpha_target": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "scene": "Synthetic_GS3/Drums",
+      "resolution": 512,
+      "frame": 0,
+      "max_abs_rgb_alpha_target": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "scene": "Synthetic_GS3/FurBall",
+      "resolution": 512,
+      "frame": 0,
+      "max_abs_rgb_alpha_target": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "scene": "Synthetic_GS3/Hotdog",
+      "resolution": 512,
+      "frame": 0,
+      "max_abs_rgb_alpha_target": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "scene": "Synthetic_GS3/Lego",
+      "resolution": 512,
+      "frame": 0,
+      "max_abs_rgb_alpha_target": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "scene": "Synthetic_GS3/Translucent",
+      "resolution": 512,
+      "frame": 0,
+      "max_abs_rgb_alpha_target": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "scene": "Synthetic_SSS-GS/bunny_small",
+      "resolution": 256,
+      "frame": 0,
+      "max_abs_rgb_alpha_target": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "scene": "Synthetic_SSS-GS/candle_small",
+      "resolution": 256,
+      "frame": 0,
+      "max_abs_rgb_alpha_target": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "scene": "Synthetic_SSS-GS/dragon_small",
+      "resolution": 256,
+      "frame": 0,
+      "max_abs_rgb_alpha_target": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "scene": "Synthetic_SSS-GS/soap_small",
+      "resolution": 256,
+      "frame": 0,
+      "max_abs_rgb_alpha_target": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "scene": "Synthetic_SSS-GS/statue_small",
+      "resolution": 256,
+      "frame": 0,
+      "max_abs_rgb_alpha_target": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "fresh_transport_state_and_rng_bitwise_equal": true,
+  "short_training": {
+    "real_scene": "Real_NRHints/Cat",
+    "resolution": 32,
+    "frames": 4,
+    "initial_points": 128,
+    "geometry_steps": 8,
+    "warmup_steps": 3,
+    "appearance_steps": 3,
+    "stages": {
+      "geometry": {
+        "LisaGS": {
+          "max_abs_state_difference": {
+            "gaussians": 0.0011237859725952148,
+            "transport": 7.916241884231567e-08,
+            "camera_offsets": 1.1641532182693481e-10
+          },
+          "rms_state_difference": {
+            "gaussians": 2.5789140636334196e-05,
+            "transport": 1.096264079514242e-09,
+            "camera_offsets": 3.757288230543665e-11
+          },
+          "max_logged_loss_difference": 0.0
+        },
+        "PORT-repeat": {
+          "max_abs_state_difference": {
+            "gaussians": 0.0011042824480682611,
+            "transport": 3.438396379351616e-05,
+            "camera_offsets": 3.4924596548080444e-10
+          },
+          "rms_state_difference": {
+            "gaussians": 2.051706178463064e-05,
+            "transport": 1.8024142889316863e-07,
+            "camera_offsets": 1.418355016769013e-10
+          },
+          "max_logged_loss_difference": 0.0
+        }
+      },
+      "appearance": {
+        "LisaGS": {
+          "max_abs_state_difference": {
+            "gaussians": 0.0011237859725952148,
+            "transport": 0.0019662082195281982,
+            "camera_offsets": 1.1641532182693481e-10
+          },
+          "rms_state_difference": {
+            "gaussians": 2.578926068963483e-05,
+            "transport": 5.064900051365839e-06,
+            "camera_offsets": 3.757288230543665e-11
+          },
+          "max_logged_loss_difference": 0.0
+        },
+        "PORT-repeat": {
+          "max_abs_state_difference": {
+            "gaussians": 0.0011042824480682611,
+            "transport": 0.002003829926252365,
+            "camera_offsets": 3.4924596548080444e-10
+          },
+          "rms_state_difference": {
+            "gaussians": 2.0517767552519217e-05,
+            "transport": 1.2281921954127029e-05,
+            "camera_offsets": 1.418355016769013e-10
+          },
+          "max_logged_loss_difference": 0.0
+        }
+      }
+    },
+    "frozen_geometry_and_cameras_bitwise_unchanged": true,
+    "note": "CUDA rasterization/grid sampling backward is nondeterministic. Report cross-project differences beside a same-source repeat, rather than asserting bitwise trained weights.",
+    "frame_indices": [
+      0,
+      130,
+      261,
+      391
+    ],
+    "seed": 0,
+    "data_source": "<data_root>/Real_NRHints/Cat",
+    "modified_recipe_fields": {
+      "steps": 8,
+      "geometry-warmup-steps": 3,
+      "points": 128,
+      "max-points": 256,
+      "resolution": 32,
+      "camera-start": 2,
+      "shadow-start": 2,
+      "port-start": 2,
+      "foreground-appearance-until": 4,
+      "appearance_steps": 3
+    },
+    "scope": "Integration verification only; four real training frames with unchanged metadata and original images. Temporary outputs removed after recording results."
+  },
+  "paper": {
+    "missing_files": [],
+    "changed_files": [
+      "paper/README.md",
+      "paper/scripts/sources.py",
+      "paper/scripts/make_tables.py",
+      "paper/translations/README.md"
+    ],
+    "tables_regenerated": true,
+    "figures_regenerated": true,
+    "manuscript_translations_figures_and_pdfs_byte_identical": true
+  },
+  "transport_routines_unchanged_except_final_defaults": true,
+  "source_revision": "31a291fb9ee0df8043a1f0a00330597c31d7f8b8",
+  "date": "2026-10-06 Asia/Tokyo",
+  "physical_gpu": 1,
+  "python": "<conda_envs>/ssd-gs/bin/python",
+  "canonical_recipe_identical": true,
+  "cli_evaluation": {
+    "checkpoint": "runs/lisa_staged_full_dataset_20261004/Real_NRHints/Cat/appearance/last.pt",
+    "split": "test",
+    "limit": 1,
+    "lpips": true,
+    "metrics": {
+      "PSNR": 24.991668701171875,
+      "SSIM": 0.7870806455612183,
+      "raw_MSE": 0.0031675079371780157,
+      "alpha_L1": 0.008970147930085659,
+      "LPIPS": 0.19105233252048492
+    },
+    "command": "CUDA_VISIBLE_DEVICES=1 python evaluate.py runs/lisa_staged_full_dataset_20261004/Real_NRHints/Cat/appearance/last.pt --split test --limit 1 --lpips --output <new-output-directory>"
+  },
+  "final_checkpoints": {
+    "count": 18,
+    "byte_identical": true,
+    "independent_copies": true
+  }
+}

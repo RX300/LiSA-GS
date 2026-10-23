@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lisags"
+version = "0.1.0"
+description = "Light-Space Atlases for Relightable Gaussian Splatting"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "torch==2.4.1",
+    "torchvision==0.19.1",
+    "gsplat==1.5.3",
+    "numpy==1.26.3",
+    "scipy==1.15.2",
+    "opencv-python==4.9.0.80",
+    "Pillow==11.1.0",
+    "matplotlib==3.5.3",
+    "lpips==0.1.4",
+]
+
+[project.scripts]
+lisags-run = "lisags.cli.run_staged:main"
+lisags-train = "lisags.training.trainer:main"
+lisags-evaluate = "lisags.evaluation.evaluator:main"
+
+[tool.setuptools.packages.find]
+include = ["lisags*"]

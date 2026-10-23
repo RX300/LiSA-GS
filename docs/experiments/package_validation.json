@@ -1,0 +1,213 @@
+{
+  "gpu": 1,
+  "gsplat_version": "1.5.3",
+  "gsplat_source": "Git submodule v1.5.3, installed in temporary isolated venv",
+  "render_checks": [
+    {
+      "scene": "Real_NRHints/Cat",
+      "resolution": 512,
+      "frame": 0,
+      "max_abs_difference": {
+        "rgb": 0.0,
+        "alpha": 0.0
+      }
+    },
+    {
+      "scene": "Real_NRHints/CatSmall",
+      "resolution": 512,
+      "frame": 0,
+      "max_abs_difference": {
+        "rgb": 0.0,
+        "alpha": 0.0
+      }
+    },
+    {
+      "scene": "Real_NRHints/CupFabric",
+      "resolution": 512,
+      "frame": 0,
+      "max_abs_difference": {
+        "rgb": 0.0,
+        "alpha": 0.0
+      }
+    },
+    {
+      "scene": "Real_NRHints/Fish",
+      "resolution": 512,
+      "frame": 0,
+      "max_abs_difference": {
+        "rgb": 0.0,
+        "alpha": 0.0
+      }
+    },
+    {
+      "scene": "Real_NRHints/FurScene",
+      "resolution": 512,
+      "frame": 0,
+      "max_abs_difference": {
+        "rgb": 0.0,
+        "alpha": 0.0
+      }
+    },
+    {
+      "scene": "Real_NRHints/Pikachu",
+      "resolution": 512,
+      "frame": 0,
+      "max_abs_difference": {
+        "rgb": 0.0,
+        "alpha": 0.0
+      }
+    },
+    {
+      "scene": "Real_NRHints/Pixiu",
+      "resolution": 512,
+      "frame": 0,
+      "max_abs_difference": {
+        "rgb": 0.0,
+        "alpha": 0.0
+      }
+    },
+    {
+      "scene": "Synthetic_GS3/AnisoMetal",
+      "resolution": 512,
+      "frame": 0,
+      "max_abs_difference": {
+        "rgb": 0.0,
+        "alpha": 0.0
+      }
+    },
+    {
+      "scene": "Synthetic_GS3/Drums",
+      "resolution": 512,
+      "frame": 0,
+      "max_abs_difference": {
+        "rgb": 0.0,
+        "alpha": 0.0
+      }
+    },
+    {
+      "scene": "Synthetic_GS3/FurBall",
+      "resolution": 512,
+      "frame": 0,
+      "max_abs_difference": {
+        "rgb": 0.0,
+        "alpha": 0.0
+      }
+    },
+    {
+      "scene": "Synthetic_GS3/Hotdog",
+      "resolution": 512,
+      "frame": 0,
+      "max_abs_difference": {
+        "rgb": 0.0,
+        "alpha": 0.0
+      }
+    },
+    {
+      "scene": "Synthetic_GS3/Lego",
+      "resolution": 512,
+      "frame": 0,
+      "max_abs_difference": {
+        "rgb": 0.0,
+        "alpha": 0.0
+      }
+    },
+    {
+      "scene": "Synthetic_GS3/Translucent",
+      "resolution": 512,
+      "frame": 0,
+      "max_abs_difference": {
+        "rgb": 0.0,
+        "alpha": 0.0
+      }
+    },
+    {
+      "scene": "Synthetic_SSS-GS/bunny_small",
+      "resolution": 256,
+      "frame": 0,
+      "max_abs_difference": {
+        "rgb": 0.0,
+        "alpha": 0.0
+      }
+    },
+    {
+      "scene": "Synthetic_SSS-GS/candle_small",
+      "resolution": 256,
+      "frame": 0,
+      "max_abs_difference": {
+        "rgb": 0.0,
+        "alpha": 0.0
+      }
+    },
+    {
+      "scene": "Synthetic_SSS-GS/dragon_small",
+      "resolution": 256,
+      "frame": 0,
+      "max_abs_difference": {
+        "rgb": 0.0,
+        "alpha": 0.0
+      }
+    },
+    {
+      "scene": "Synthetic_SSS-GS/soap_small",
+      "resolution": 256,
+      "frame": 0,
+      "max_abs_difference": {
+        "rgb": 0.0,
+        "alpha": 0.0
+      }
+    },
+    {
+      "scene": "Synthetic_SSS-GS/statue_small",
+      "resolution": 256,
+      "frame": 0,
+      "max_abs_difference": {
+        "rgb": 0.0,
+        "alpha": 0.0
+      }
+    }
+  ],
+  "date": "2026-10-06 Asia/Tokyo",
+  "editable_package_install": true,
+  "entrypoints_help": true,
+  "core_ast_unchanged_excluding_imports": true,
+  "gsplat_commit": "937e29912570c372bed6747a5c9bf85fed877bae",
+  "glm_commit": "5c46b9c07008ae65cb81ab79cd677ecc1934b903",
+  "upstream_gsplat_files_matched": 67,
+  "experimental_glm_files_matched": 428,
+  "default_glm_cat_max_abs_difference": 0.0006701946258544922,
+  "cuda": "12.1",
+  "torch": "2.4.1",
+  "installation_scope": "Temporary venv inherits the existing PyTorch/scientific packages; gsplat installed from the submodule and CUDA rebuilt in an isolated directory. No complete fresh Conda environment solve was run.",
+  "entrypoint_smoke": {
+    "train_steps": 4,
+    "appearance_steps": 2,
+    "real_train_frames": 4,
+    "real_test_frames": 2,
+    "resolution": 32,
+    "gaussians": 128,
+    "metrics": {
+      "PSNR": 7.617187261581421,
+      "SSIM": 0.15494106709957123,
+      "raw_MSE": 0.17873527854681015,
+      "alpha_L1": 0.3979436308145523,
+      "LPIPS": 0.6808566451072693
+    },
+    "command": [
+      "/tmp/lisags_packaging_env/bin/lisags-run",
+      "--config",
+      "/tmp/lisags_entrypoint_smoke/recipe.json",
+      "--data-root",
+      "/tmp/lisags_entrypoint_smoke/data",
+      "--family",
+      "Real_NRHints",
+      "--scene",
+      "Cat",
+      "--output",
+      "/tmp/lisags_entrypoint_smoke/output"
+    ],
+    "passed": true,
+    "purpose": "Integration check only, not a reconstruction-quality experiment"
+  },
+  "temporary_artifacts_removed": true,
+  "glm_override_required": true
+}

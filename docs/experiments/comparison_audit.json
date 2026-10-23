@@ -1,0 +1,115 @@
+{
+  "run": "runs/full_dataset_20261006",
+  "baseline_source": "runs/lisa_supplementary_experiments/common_ground_truth",
+  "scope": "Completed scenes only; all test-frame IDs, names and target PNG bytes checked; metric means recomputed",
+  "scenes": [
+    {
+      "family": "Synthetic_GS3",
+      "scene": "Lego",
+      "frames": 400,
+      "different_target_channels": 0
+    },
+    {
+      "family": "Real_NRHints",
+      "scene": "Cat",
+      "frames": 66,
+      "different_target_channels": 0
+    },
+    {
+      "family": "Synthetic_SSS-GS",
+      "scene": "bunny_small",
+      "frames": 500,
+      "different_target_channels": 0
+    },
+    {
+      "family": "Synthetic_GS3",
+      "scene": "Drums",
+      "frames": 400,
+      "different_target_channels": 0
+    },
+    {
+      "family": "Real_NRHints",
+      "scene": "CatSmall",
+      "frames": 158,
+      "different_target_channels": 0
+    },
+    {
+      "family": "Synthetic_SSS-GS",
+      "scene": "candle_small",
+      "frames": 500,
+      "different_target_channels": 0
+    },
+    {
+      "family": "Synthetic_GS3",
+      "scene": "Hotdog",
+      "frames": 400,
+      "different_target_channels": 0
+    },
+    {
+      "family": "Real_NRHints",
+      "scene": "CupFabric",
+      "frames": 145,
+      "different_target_channels": 0
+    },
+    {
+      "family": "Synthetic_SSS-GS",
+      "scene": "dragon_small",
+      "frames": 500,
+      "different_target_channels": 0
+    },
+    {
+      "family": "Synthetic_GS3",
+      "scene": "AnisoMetal",
+      "frames": 400,
+      "different_target_channels": 0
+    },
+    {
+      "family": "Real_NRHints",
+      "scene": "Fish",
+      "frames": 66,
+      "different_target_channels": 0
+    },
+    {
+      "family": "Synthetic_SSS-GS",
+      "scene": "soap_small",
+      "frames": 500,
+      "different_target_channels": 0
+    },
+    {
+      "family": "Synthetic_GS3",
+      "scene": "FurBall",
+      "frames": 400,
+      "different_target_channels": 0
+    },
+    {
+      "family": "Real_NRHints",
+      "scene": "FurScene",
+      "frames": 85,
+      "different_target_channels": 0
+    },
+    {
+      "family": "Synthetic_SSS-GS",
+      "scene": "statue_small",
+      "frames": 500,
+      "different_target_channels": 0
+    },
+    {
+      "family": "Synthetic_GS3",
+      "scene": "Translucent",
+      "frames": 400,
+      "different_target_channels": 0
+    },
+    {
+      "family": "Real_NRHints",
+      "scene": "Pixiu",
+      "frames": 71,
+      "different_target_channels": 0
+    },
+    {
+      "family": "Real_NRHints",
+      "scene": "Pikachu",
+      "frames": 200,
+      "different_target_channels": 0
+    }
+  ]
+}
